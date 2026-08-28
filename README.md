@@ -7,8 +7,7 @@
 ![Power Query](https://img.shields.io/badge/Power%20Query-FF7A00?style=for-the-badge)
 ![Data Modelling](https://img.shields.io/badge/Star%20Schema-4A5D7E?style=for-the-badge)
 
-> 📂 **[Download the .pbix file](Power_BI_Mini_Project.pbix)** · 📊 **[Browse the raw datasets](/data)**
-
+> 📂 **[Download the .pbix file](Power_BI_Mini_Project.pbix)** · 🧮 **[Read the DAX documentation](DAX-Measures.md)**
 ---
 
 ### The brief
@@ -133,6 +132,14 @@ Full definitions and design notes in **[DAX-Measures.md](DAX-Measures.md)**.
 | Measures tracked | Scheduled vs. actual departure and arrival, passenger count, seat capacity, route distance |
 | Volume analysed | **92,321 passenger journeys** against **163,898 seats offered** |
 
+| Dataset | File |
+| --- | --- |
+| Trip logs (fact table) | [Trips.xlsx](Trips.xlsx) |
+| Passenger counts | [Passengers.xlsx](Passengers.xlsx) |
+| Route reference | [Routes.xlsx](Routes.xlsx) |
+| Fleet reference | [Fleet.xlsx](Fleet.xlsx) |
+| Date dimension | [Calendar.xlsx](Calendar.xlsx) |
+
 ---
 
 ### Key insights
@@ -173,7 +180,7 @@ The network-wide load factor is **56.3%**, comfortably below capacity. Yet **893
 ### How to explore this project
 
 1. Download `Power_BI_Mini_Project.pbix` and open it in **Power BI Desktop** (free).
-2. The five source files live in `/data` — reconnect them via *Transform Data → Data source settings* if you want to refresh.
+2. The five source workbooks sit in the repo root — reconnect them via *Transform Data → Data source settings* if you want to refresh.
 3. Start on **Service Reliability**, filter to *Standard Bus* in the Bus Type slicer, and watch the on-time card drop. Then move to **Demand & Utilization** and filter to a weekday.
 
 ---
