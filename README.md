@@ -199,7 +199,7 @@ The dataset is a **simulated** transit network built to mirror the structure, ge
 
 <div align="center">
 
-**Wanjiku Waweru** · BBS Financial Engineering, Strathmore University
-[GitHub](https://github.com/ShikohWaweru)
+**Rosemary Waweru** · Data Analyst
+[LinkedIn](https://www.linkedin.com/in/rosemary-waweru-85108b2a1)
 
 </div>
